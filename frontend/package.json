@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+  "dev": "next dev", 
+  "build": "next build",
+  "start": "next start -p 3000",
+  "lint": "next lint",
+  "cypress:open": "cypress open",
+  "cypress:run": "cypress run",
+  "test:e2e": "cypress run"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "cypress": "13.6.2"
+  }
+}
